@@ -1,0 +1,15 @@
+D:\dotnet\CADASTRODEPESSOAFS\bin\Debug\net6.0\CADASTRODEPESSOAFS.exe
+D:\dotnet\CADASTRODEPESSOAFS\bin\Debug\net6.0\CADASTRODEPESSOAFS.deps.json
+D:\dotnet\CADASTRODEPESSOAFS\bin\Debug\net6.0\CADASTRODEPESSOAFS.runtimeconfig.json
+D:\dotnet\CADASTRODEPESSOAFS\bin\Debug\net6.0\CADASTRODEPESSOAFS.dll
+D:\dotnet\CADASTRODEPESSOAFS\bin\Debug\net6.0\CADASTRODEPESSOAFS.pdb
+D:\dotnet\CADASTRODEPESSOAFS\obj\Debug\net6.0\CADASTRODEPESSOAFS.csproj.AssemblyReference.cache
+D:\dotnet\CADASTRODEPESSOAFS\obj\Debug\net6.0\CADASTRODEPESSOAFS.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\CADASTRODEPESSOAFS\obj\Debug\net6.0\CADASTRODEPESSOAFS.AssemblyInfoInputs.cache
+D:\dotnet\CADASTRODEPESSOAFS\obj\Debug\net6.0\CADASTRODEPESSOAFS.AssemblyInfo.cs
+D:\dotnet\CADASTRODEPESSOAFS\obj\Debug\net6.0\CADASTRODEPESSOAFS.csproj.CoreCompileInputs.cache
+D:\dotnet\CADASTRODEPESSOAFS\obj\Debug\net6.0\CADASTRODEPESSOAFS.dll
+D:\dotnet\CADASTRODEPESSOAFS\obj\Debug\net6.0\refint\CADASTRODEPESSOAFS.dll
+D:\dotnet\CADASTRODEPESSOAFS\obj\Debug\net6.0\CADASTRODEPESSOAFS.pdb
+D:\dotnet\CADASTRODEPESSOAFS\obj\Debug\net6.0\CADASTRODEPESSOAFS.genruntimeconfig.cache
+D:\dotnet\CADASTRODEPESSOAFS\obj\Debug\net6.0\ref\CADASTRODEPESSOAFS.dll
