@@ -19,6 +19,7 @@ namespace CADASTRODEPESSOAFS.Classes
         /// <returns></returns>
         public bool ValidarDataNascimento(DateTime dataNasc)
         {
+            
             DateTime dataAtual = DateTime.Today;
             double anos = (dataAtual - dataNasc).TotalDays / 365;
 
