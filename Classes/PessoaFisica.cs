@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using CADASTRODEPESSOAFS.Interfaces;
 
 namespace CADASTRODEPESSOAFS.Classes
@@ -39,6 +40,21 @@ namespace CADASTRODEPESSOAFS.Classes
                 double anos = (dataAtual - dataConvertida).TotalDays / 365;
                 
                 if(anos >= 18){
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public bool ValidarCpf(string cpf)
+        {
+            if (Regex.IsMatch(cpf, @"(^(\d{3}.\d{3}.\d{3}-\d{2})|(\d{11})$)")){
+                if (cpf.Length == 14)
+                {
+                    return true;
+
+                } else if (cpf.Length == 11)
+                {
                     return true;
                 }
             }
