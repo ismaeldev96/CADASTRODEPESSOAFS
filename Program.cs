@@ -1,6 +1,7 @@
 ﻿using CADASTRODEPESSOAFS.Classes;
 
 PessoaFisica novaPf = new PessoaFisica();
+PessoaFisica metodoPf = new PessoaFisica();
 Endereco novoEnd = new Endereco();
 
 
@@ -20,6 +21,8 @@ novaPf.endereco = novoEnd;
 Console.WriteLine(@$"
 Nome: {novaPf.nome}
 CPF: {novaPf.cpf}
-Data de Nascimento: {novaPf.dataNasc}
+Data de Nascimento: {novaPf.dataNasc} maior de idade: {(metodoPf.ValidarDataNascimento(novaPf.dataNasc)? "sim" : "Não")}
 Endereço: {novaPf.endereco.logradouro}, {novaPf.endereco.numero}, {novaPf.endereco.cep}
+Redimento: {novaPf.rendimento.ToString("C")}
+Taxa de imposto a ser pago é: 
 ");
