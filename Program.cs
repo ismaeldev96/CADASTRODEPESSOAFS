@@ -95,10 +95,10 @@ Taxa de imposto a ser pago é:
         Console.ReadLine();
     } else if (opcao == "0" || opcao == "Sair" || opcao == "sair" || opcao == "0 - Sair")
     {
-        BarraCarregamento("Finalizando", 500);
+        BarraCarregamento("Finalizando", 300);
     } else {
         Console.WriteLine($"Comando invalido, escolha uma opção valida!");
-        Thread.Sleep(1000);
+        Thread.Sleep(3000);
         Console.Clear();
     }
 }while(opcao != "0");
