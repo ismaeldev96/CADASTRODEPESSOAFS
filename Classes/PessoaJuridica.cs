@@ -10,7 +10,22 @@ namespace CADASTRODEPESSOAFS.Classes
 
         public override float PagarImposto(float rendimento)
         {
-            throw new NotImplementedException();
+            if(rendimento > 10000)
+            {
+                return (rendimento / 100) * 9;
+            }
+            else if (rendimento <= 10000 && rendimento > 6000)
+            {
+                return (rendimento / 100) * 7;
+            }
+            else if(rendimento <= 6000 && rendimento > 3000)
+            {
+                return (rendimento / 100) * 5;
+            }
+            else
+            {
+                return (rendimento / 100) * 3;
+            }
         }
 
         public bool ValidarCnpj(string cnpj)

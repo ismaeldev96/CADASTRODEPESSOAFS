@@ -8,7 +8,7 @@ Console.WriteLine(@$"
 ");
 Thread.Sleep(1000);
 
-BarraCarregamento("Carregando", 500);
+BarraCarregamento("Carregando", 300);
 
 string? opcao;
 do{
@@ -37,7 +37,7 @@ do{
 
         novaPf.nome = "ismael";
         novaPf.cpf = "06376564585";
-        novaPf.rendimento = 1000.5f;
+        novaPf.rendimento = 1500.5f;
         var thTH = new System.Globalization.CultureInfo("th-TH");
         var cal = thTH.DateTimeFormat.Calendar;
         novaPf.dataNasc = new DateTime(1996, 04, 05, cal);
@@ -56,7 +56,7 @@ CPF: {novaPf.cpf}
 Data de Nascimento: {novaPf.dataNasc:d} maior de idade: {(metodoPf.ValidarDataNascimento(novaPf.dataNasc)? "sim" : "Não")}
 Endereço: {novaPf.endereco.logradouro}, {novaPf.endereco.numero}, {novaPf.endereco.cep}
 Redimento: {novaPf.rendimento.ToString("C")}
-Taxa de imposto a ser pago é: 
+Taxa de imposto a ser pago é: {metodoPf.PagarImposto(novaPf.rendimento).ToString("C")}
 ");
 
         Console.WriteLine($"Aperte 'ENTER' para retorna ao menu anterior");
@@ -71,8 +71,8 @@ Taxa de imposto a ser pago é:
 
         novaPj.nome = "Ismael";
         novaPj.razaoSocial = "Mercado das Repesentações";
-        //novaPj.cnpj = "00.000.000/0001-14";
-        novaPj.cnpj = "00.000.000/0001-1";
+        novaPj.cnpj = "00.000.000/0001-14";
+        // novaPj.cnpj = "00.000.000/0001-1";
         novaPj.rendimento = 100000.05f;
 
         endPj.logradouro = "Av. jose carlos";
@@ -88,14 +88,14 @@ Razão Social: {novaPj.razaoSocial}
 CNPJ: {(metodoPj.ValidarCnpj(novaPj.cnpj)? novaPj.cnpj : "Ínvalido")}
 Endereço: {novaPj.endereco.logradouro}, {novaPj.endereco.numero}, {novaPj.endereco.cep}
 Redimento: {novaPj.rendimento.ToString("C")}
-Taxa de imposto a ser pago é: 
+Taxa de imposto a ser pago é: {metodoPj.PagarImposto(novaPj.rendimento).ToString("C")}
 ");
 
         Console.WriteLine($"Aperte 'ENTER' para retorna ao menu anterior");
         Console.ReadLine();
     } else if (opcao == "0" || opcao == "Sair" || opcao == "sair" || opcao == "0 - Sair")
     {
-        BarraCarregamento("Finalizando", 300);
+        BarraCarregamento("Finalizando", 0);
     } else {
         Console.WriteLine($"Comando invalido, escolha uma opção valida!");
         Thread.Sleep(3000);
