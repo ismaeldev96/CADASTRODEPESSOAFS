@@ -20,12 +20,12 @@ O VSCode ou  Microsoft Visual Studio.
 ## Execução da aplicação
 Clone o projeto com o comando abaixo:
 
-  # Clone o repositório
-  ❯ git clone https://github.com/ismaeldev96/CADASTRODEPESSOAFS.git
-	# Entre no diretório
 
+    # Clone o repositório
+    ❯ git clone https://github.com/ismaeldev96/CADASTRODEPESSOAFS.git
+	# Entre no diretório
 	# Execute o projeto
-  ❯ dotnet run
+    ❯ dotnet run
 
 ## Erros comuns
 Os erros comuns foram no tipo de variável. Muitas vezes se faz necessário fazer a conversão de string para float ou int preferencialmente usando int.Parse e float.Parse e bool.Parse.
