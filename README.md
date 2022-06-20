@@ -21,10 +21,10 @@ O VSCode ou  Microsoft Visual Studio.
 Clone o projeto com o comando abaixo:
 
 
-    # Clone o repositório
+    Clone o repositório
     ❯ git clone https://github.com/ismaeldev96/CADASTRODEPESSOAFS.git
-	# Entre no diretório
-	# Execute o projeto
+	Entre no diretório
+	Execute o projeto via console
     ❯ dotnet run
 
 ## Erros comuns
