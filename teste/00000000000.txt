@@ -1,0 +1,6 @@
+Nome: orion
+CPF: 00000000000
+Data de Nascimento: 05/04/1992
+Endereço: rua, 25, 49045236
+Redimento: R$ 521,00
+Taxa de imposto a ser pago é: R$ 0,00

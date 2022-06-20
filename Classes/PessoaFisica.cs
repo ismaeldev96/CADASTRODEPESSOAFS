@@ -7,6 +7,7 @@ namespace CADASTRODEPESSOAFS.Classes
     {
         public string? cpf {get; set;}
         public string? dataNasc {get; set;}
+        public string? caminho { get; private set;} = "Database/PessoaFisica.csv";
 
         public override float PagarImposto(float rendimento)
         {
